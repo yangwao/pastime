@@ -42,6 +42,8 @@ let questions = [
 ];
 
 inquirer.prompt(questions).then(function (answers) {
+  answers.startedAt = new Date().getTime()
+  answers.workingOn = true
   answers = (JSON.stringify(answers, null))
   fs.writeFileSync('tracker.json', answers, 'utf8', (err) => {
     if (err) throw err
