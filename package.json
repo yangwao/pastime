@@ -1,0 +1,28 @@
+{
+  "name": "pastime",
+  "version": "0.0.1",
+  "description": "time tracker cli utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangwao/pastime.git"
+  },
+  "keywords": [
+    "time",
+    "tracker",
+    "cli"
+  ],
+  "author": "Matej Nemcek @yangwao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangwao/pastime/issues"
+  },
+  "homepage": "https://github.com/yangwao/pastime#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.2"
+  }
+}
