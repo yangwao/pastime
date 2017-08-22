@@ -1,0 +1,23 @@
+{
+  "project": "xx",
+  "task": "323",
+  "rate": 40,
+  "currency": "eur",
+  "intermediate": [{
+      "meta": "xx",
+      "startedAt": 1503387742763,
+      "workingOn": true
+    },
+    {
+      "meta": "yy",
+      "startedAt": 1503387742763,
+      "finishedAt": 1503387925000
+    },
+    {
+      "meta": "yy",
+      "startedAt": 1503387742763,
+      "finishedAt": 1503387925000,
+      "exchangeRate": 3850
+    }
+  ]
+}
